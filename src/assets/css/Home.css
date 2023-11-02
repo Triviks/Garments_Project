@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Newsreader:ital,wght@1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #C0D7FB;
+    height: fit-content;
+    /* height: 200vh; */
+
+}
+
+#main {
+    /* z-index: -1; */
+    display: flex;
+    /* padding-top: 150px; */
+    padding-bottom: 190px;
+    position: relative;
+    top: 140px;
+
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    /* height: 600px; */
+    /* border: 1px solid black; */
+}
+
+#main h1:nth-child(1) {
+    /* TYPOGRAPHY */
+    color: #143aa2;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 100;
+    line-height: normal;  
+}
+
+#main h1:nth-child(2) {
+    /* TYPOGRAPHY */
+    color: #fff;
+    font-family: Handjet;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.para {
+    width: 90%;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 450;
+    line-height: 25px; /* 138.889% */
+    font-variant: small-caps;
+    text-align: justify;
+}
+
+.readmore {
+    /* LAYOUT */
+    border-radius: 20px;
+    border: 1px solid #3e8de3;
+    background: #143aa2;
+    box-shadow: 4px 4px 8px 0px #3e8de3;
+    width: 147px;
+    height: 35px;
+
+    /* TYPOGRAPHY */
+    color: #C0D7FB;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 657;
+    line-height: 25px; /* 156.25% */
+    text-transform: uppercase;
+}
+
+#main img {
+    /* fill: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    filter: drop-shadow(15px 15px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    width: 564px;
+    height: 347px;
+}
+
+
+@media only screen and (max-width: 426px){
+
+    #main {
+        display: block;
+        /* margin-top: 110px; */
+        position: relative;
+        top: 110px;
+        padding-bottom: 250px;
+        
+    }
+
+    #main h1:nth-child(1) {
+        /* TYPOGRAPHY */
+        color: #143aa2;
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 100;
+        line-height: normal;  
+    }
+    
+    #main h1:nth-child(2) {
+        /* TYPOGRAPHY */
+        color: #fff;
+        font-family: Handjet;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .para {
+        width: 100%;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 450;
+        line-height: 20px;
+        font-variant: small-caps;
+        text-align: justify;
+        margin-bottom: -10px;
+    }
+    
+    .readmore {
+        /* LAYOUT */
+        border-radius: 20px;
+        border: 1px solid #143aa2;
+        background: #143aa2;
+        box-shadow: 4px 4px 4px 0px #143aa2;
+        width: 90px;
+        height: 20px;
+    
+        /* TYPOGRAPHY */
+        color: #7db9f9;
+        font-family: Montserrat;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height :normal;
+        margin-bottom: 20px;
+    }
+    
+    #main .image img {
+        width: 100%;
+        height: 200px;
+    }
+    
+    
+    
+}
+
+@media only screen and (min-width: 426px) and (max-width: 601px){
+
+    #main {
+        display: block;
+        /* margin-top: 110px; */
+        padding-top: 0;
+        position: relative;
+        top: 110px;
+        padding-bottom: 250px;
+
+    }
+
+    #main h1:nth-child(1) {
+        /* TYPOGRAPHY */
+        color: #143aa2;
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 100;
+        line-height: normal;  
+    }
+    
+    #main h1:nth-child(2) {
+        /* TYPOGRAPHY */
+        color: #fff;
+        font-family: Handjet;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .para {
+        width: 99%;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 350;
+        line-height: 15px;
+        font-variant: small-caps;
+        text-align: justify;
+        margin-bottom: -10px;
+    }
+    
+    .readmore {
+        /* LAYOUT */
+        border-radius: 20px;
+        border: 1px solid #143aa2;
+        background: #143aa2;
+        box-shadow: 4px 4px 4px 0px #143aa2;
+        width: 90px;
+        height: 20px;
+    
+        /* TYPOGRAPHY */
+        color: #7db9f9;
+        font-family: Montserrat;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height :normal;
+        margin-bottom: 20px;
+    }
+    
+    #main .image img {
+        width: 95%;
+        height: 250px;
+        margin-left: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 715px) {
+
+    #main {
+        display: flex;
+        /* grid-template-columns: 53% 45%; */
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+        top: 100px;
+        
+
+    }
+
+    #main h1:nth-child(1) {
+        /* TYPOGRAPHY */
+        color: #143aa2;
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 100;
+        line-height: normal;  
+    }
+    
+    #main h1:nth-child(2) {
+        /* TYPOGRAPHY */
+        color: #fff;
+        font-family: Handjet;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .para {
+        width: 99%;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 350;
+        line-height: 15px;
+        font-variant: small-caps;
+        text-align: justify;
+        margin-bottom: -10px;
+    }
+    
+    .readmore {
+        /* LAYOUT */
+        border-radius: 20px;
+        border: 1px solid #143aa2;
+        background: #143aa2;
+        box-shadow: 4px 4px 4px 0px #143aa2;
+        width: 90px;
+        height: 20px;
+    
+        /* TYPOGRAPHY */
+        color: #7db9f9;
+        font-family: Montserrat;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height :normal;
+        margin-bottom: 20px;
+    }
+
+    #main img {
+        /* fill: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+        filter: drop-shadow(15px 15px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 20px;
+        width: 350px;
+        height: 200px;
+        float:inline-start;
+    }
+    
+}
+
+
+@media only screen and (min-width: 715px) and (max-width: 769px) {
+
+    #main {
+        display: flex;
+        /* grid-template-columns: 53% 45%; */
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-top: 0;
+        position: relative;
+        top: 110px;
+
+    }
+
+    #main h1:nth-child(1) {
+        /* TYPOGRAPHY */
+        color: #143aa2;
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 100;
+        line-height: normal;  
+    }
+    
+    #main h1:nth-child(2) {
+        /* TYPOGRAPHY */
+        color: #fff;
+        font-family: Handjet;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .para {
+        width: 99%;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 350;
+        line-height: 15px;
+        font-variant: small-caps;
+        text-align: justify;
+        margin-bottom: -10px;
+    }
+    
+    .readmore {
+        /* LAYOUT */
+        border-radius: 20px;
+        border: 1px solid #143aa2;
+        background: #143aa2;
+        box-shadow: 4px 4px 4px 0px #143aa2;
+        width: 90px;
+        height: 20px;
+    
+        /* TYPOGRAPHY */
+        color: #7db9f9;
+        font-family: Montserrat;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height :normal;
+        margin-bottom: 20px;
+    }
+
+    #main img {
+        /* fill: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+        filter: drop-shadow(15px 15px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 20px;
+        width: 350px;
+        height: 200px;
+        float:inline-start;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1201px) {
+
+    #main {
+        display: flex;
+        /* grid-template-columns: 53% 45%; */
+        justify-content: center;
+        align-items: center;
+        /* gap: 20px; */
+        padding-top: 0;
+        position: relative;
+        top: 110px;
+
+    }
+
+    #main h1:nth-child(1) {
+        /* TYPOGRAPHY */
+        color: #143aa2;
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 100;
+        line-height: normal;  
+    }
+    
+    #main h1:nth-child(2) {
+        /* TYPOGRAPHY */
+        color: #fff;
+        font-family: Handjet;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    
+    .para {
+        /* width: 99%; */
+        color: #000;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 350;
+        line-height: 15px;
+        font-variant: small-caps;
+        text-align: justify;
+        margin-bottom: -10px;
+    }
+    
+    .readmore {
+        /* LAYOUT */
+        border-radius: 20px;
+        border: 1px solid #143aa2;
+        background: #143aa2;
+        box-shadow: 4px 4px 4px 0px #143aa2;
+        width: 90px;
+        height: 20px;
+    
+        /* TYPOGRAPHY */
+        color: #7db9f9;
+        font-family: Montserrat;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height :normal;
+        margin-bottom: 20px;
+    }
+
+    #main img {
+        /* fill: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+        filter: drop-shadow(15px 15px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 20px;
+        width: 450px;
+        height: 250px;
+        float:inline-start;
+    }
+
+}

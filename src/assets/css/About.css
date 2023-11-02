@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #C0D7FB;
+    height: fit-content;
+    /* height: 200vh; */
+
+}
+
+#abtmain {
+    /* LAYOUT */
+    padding-bottom: 200px;
+    position: relative;
+    top: 120px;
+    height: fit-content;
+
+    /* TYPOGRAPHY */
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 450;
+    line-height: 30px; /* 138.889% */
+    font-variant: small-caps;
+    text-align: justify;
+}
+
+#abtmain .abtImg {
+    background: url('../images/pexels-craig-adderley-1682699.jpg') no-repeat left;
+    background-size: 100% 100%;
+    height: 300px;
+    width: 500px;
+    float: left;
+    margin-right: 20px;
+}
+
+.abtImg h1 {
+    /* LAYOUT */
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    
+    /* TYPOGRAPHY */
+    color: white;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.534);
+    font-size: 50px;
+    filter: drop-shadow(1px 1px 0.5px #143aa2);
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 426px){
+    #abtmain {
+        display: block;
+        /* margin-top: 110px; */
+        position: relative;
+        top: 110px;
+        padding-bottom: 250px;
+    }
+
+    #abtmain .abtImg {
+        width: 100%;
+        height: 200px;
+        clear: both;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .abtImg h1 {
+        /* LAYOUT */
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+        
+        /* TYPOGRAPHY */
+        color: white;
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.534);
+        font-size: 30px;
+        filter: drop-shadow(1px 1px 0.5px #143aa2);
+        
+    }
+
+    #abtmain .abtText {
+        width: 100%;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 450;
+        line-height: 20px;
+        font-variant: small-caps;
+        text-align: justify;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 601px){
+    #abtmain {
+        display: block;
+        /* margin-top: 110px; */
+        position: relative;
+        top: 110px;
+        padding-bottom: 250px;
+    }
+
+    #abtmain .abtImg {
+        width: 100%;
+        height: 200px;
+        clear: both;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .abtImg h1 {
+        /* LAYOUT */
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+        
+        /* TYPOGRAPHY */
+        color: white;
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.534);
+        font-size: 30px;
+        filter: drop-shadow(1px 1px 0.5px #143aa2);
+        
+    }
+
+    #abtmain .abtText {
+        width: 100%;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 450;
+        line-height: 20px;
+        font-variant: small-caps;
+        text-align: justify;
+    }
+}   
+
+@media only screen and (min-width: 601px) and (max-width: 716px) {
+    #abtmain {
+        display: block;
+        /* margin-top: 110px; */
+        position: relative;
+        top: 110px;
+        padding-bottom: 200px;
+    }
+
+    #abtmain .abtImg {
+        width: 100%;
+        height: 200px;
+        clear: both;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .abtImg h1 {
+        /* LAYOUT */
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+        
+        /* TYPOGRAPHY */
+        color: white;
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.534);
+        font-size: 30px;
+        filter: drop-shadow(1px 1px 0.5px #143aa2);
+        
+    }
+
+    #abtmain .abtText {
+        width: 100%;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 450;
+        line-height: 20px;
+        font-variant: small-caps;
+        text-align: justify;
+    }
+}
+
+/* @media only screen and (min-width: 716px){
+    .abtImg h1 {
+        LAYOUT
+        display: flex;
+        justify-content: center;
+        margin-top: 140px;
+        
+        TYPOGRAPHY
+        color: white;
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.534);
+        font-size: 30px;
+        filter: drop-shadow(1px 1px 0.5px #143aa2);
+        
+    }
+} */

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Newsreader:ital,wght@1,500&display=swap');
+
+#prodmain {
+    /* LAYOUT */
+    /* z-index: -1; */
+    padding-bottom: 200px;
+    position: relative;
+    top: 120px;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    /* justify-content: flex-start; */
+    font-family: Montserrat;
+}
+
+.productBox {
+    width: 100%;
+    height: fit-content;
+    padding: 20px 10px;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    /* border: 1px solid black; */
+
+}
+
+.product {
+    border: 2px groove #3e8ee341;
+    padding: 20px 10px;
+    cursor: pointer;
+    width: 120%;
+    /* overflow: hidden;
+    white-space: nowrap; */
+}
+
+.product:hover {
+    transform: scale(1.05,1.05);
+    box-shadow: 1px 1px 5px black;
+    border: none;
+}
+
+.product span {
+    text-transform: capitalize;
+}
+
+.product span:hover {
+    color: orangered;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+
+.description {
+    /* border: 1px solid black; */
+    width: 80%;
+    font-size: 50px;
+    /* overflow: hidden;
+    text-overflow: ellipsis; */
+    color: transparent;
+    background-image: linear-gradient(45deg, #C0D7FB, #143aa2);
+    background-clip: text;
+    animation: cycle infinite 300ms linear;
+}
+
+@keyframes cycle {
+    0% {
+        /* background-image: linear-gradient(60deg, red, blue, green, orange); */
+        background-image: linear-gradient(50deg, #C0D7FB, #C0D7FB,  #143aa2, #143aa2);
+
+    }
+
+    5% {
+        /* background-image: linear-gradient(90deg, red, blue, green, orange); */
+        background-image: linear-gradient(60deg, #C0D7FB, #C0D7FB, #143aa2, #143aa2);
+    }
+
+    15% {
+        /* background-image: linear-gradient(180deg, red, blue, green, orange); */
+        background-image: linear-gradient(70deg, #C0D7FB, #C0D7FB, #143aa2, #143aa2);
+    }
+
+    20% {
+        /* background-image: linear-gradient(180deg, red, blue, green, orange); */
+        background-image: linear-gradient(80deg, #C0D7FB, #C0D7FB, #143aa2, #143aa2);
+    }
+    
+    25% {
+        /* background-image: linear-gradient(180deg, red, blue, green, orange); */
+        background-image: linear-gradient(90deg, #C0D7FB, #C0D7FB, #143aa2, #143aa2);
+    }
+
+    30% {
+        /* background-image: linear-gradient(180deg, red, blue, green, orange); */
+        background-image: linear-gradient(100deg, #C0D7FB, #C0D7FB, #143aa2, #143aa2);
+    }
+
+    35% {
+        /* background-image: linear-gradient(180deg, red, blue, green, orange); */
+        background-image: linear-gradient(110deg, #C0D7FB, #C0D7FB, #143aa2, #143aa2);
+    }
+
+    40% {
+        /* background-image: linear-gradient(180deg, red, blue, green, orange); */
+        background-image: linear-gradient(120deg, #C0D7FB, #C0D7FB, #143aa2, #143aa2);
+    }
+
+    45% {
+        /* background-image: linear-gradient(180deg, red, blue, green, orange); */
+        background-image: linear-gradient(130deg, #C0D7FB, #C0D7FB, #143aa2, #143aa2);
+    }
+
+    50% {
+        /* background-image: linear-gradient(180deg, red, blue, green, orange); */
+        background-image: linear-gradient(140deg, #C0D7FB, #C0D7FB, #143aa2, #143aa2);
+    }
+
+    55% {
+        /* background-image: linear-gradient(180deg, red, blue, green, orange); */
+        background-image: linear-gradient(150deg, #C0D7FB, #C0D7FB, #143aa2, #143aa2);
+    }
+
+    60% {
+        /* background-image: linear-gradient(180deg, red, blue, green, orange); */
+        background-image: linear-gradient(160deg, #C0D7FB, #C0D7FB, #143aa2, #143aa2);
+    }
+
+    65% {
+        /* background-image: linear-gradient(180deg, red, blue, green, orange); */
+        background-image: linear-gradient(170deg, #C0D7FB, #C0D7FB, #143aa2, #143aa2);
+    }
+
+    70% {
+        /* background-image: linear-gradient(180deg, red, blue, green, orange); */
+        background-image: linear-gradient(180deg, #C0D7FB, #C0D7FB, #143aa2, #143aa2);
+    }
+
+    75% {
+        /* background-image: linear-gradient(180deg, red, blue, green, orange); */
+        background-image: linear-gradient(200deg, #C0D7FB, #C0D7FB, #143aa2, #143aa2);
+    }
+    
+    80% {
+        /* background-image: linear-gradient(180deg, red, blue, green, orange); */
+        background-image: linear-gradient(245deg, #C0D7FB, #C0D7FB, #143aa2, #143aa2);
+    }
+
+    85% {
+        /* background-image: linear-gradient(180deg, red, blue, green, orange); */
+        background-image: linear-gradient(260deg, #C0D7FB, #C0D7FB, #143aa2, #143aa2);
+    }
+
+    90% {
+        /* background-image: linear-gradient(180deg, red, blue, green, orange); */
+        background-image: linear-gradient(290deg, #C0D7FB, #C0D7FB, #143aa2, #143aa2);
+    }
+
+    95% {
+        /* background-image: linear-gradient(180deg, red, blue, green, orange); */
+        background-image: linear-gradient(300deg, #C0D7FB, #C0D7FB, #143aa2, #143aa2);
+    }
+    
+    100% {
+        /* background-image: linear-gradient(180deg, red, blue, green, orange); */
+        background-image: linear-gradient(360deg, #C0D7FB, #C0D7FB, #143aa2, #143aa2);
+    }
+
+}
